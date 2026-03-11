@@ -39,6 +39,11 @@
 			"property": "legacy",
 			"label": "Include Legacy",
 			"default": false
+		},
+		{
+			"property": "POLLOTR",
+			"label": "POLLOTR 3.0",
+			"default": false
 		}
 	],
 	"scenarios": [
@@ -45534,7 +45539,8 @@
 			{
 				"name": "PLGW",
 				"tag": "Active",
-				"definition": "PLGW przesyła pozdrowienia"
+				"definition": "PLGW przesyła pozdrowienia",
+				"legacy": true
 			},
 			{
 				"name": "The Age of Men is Over",
