@@ -38526,7 +38526,11 @@
 					"25mm"
 				],
 				"options": [
-					"FG POLLOTR"
+					{
+						"name": "FG POLLOTR",
+						"points": 0
+					}
+				
 				],
 				"specialRules": [
 					"Bodyguard",
