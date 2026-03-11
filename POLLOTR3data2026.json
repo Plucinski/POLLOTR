@@ -38506,7 +38506,7 @@
 				"fight": 4,
 				"shoot": 4,
 				"strength": 3,
-				"defence": 7,
+				"defence": 6,
 				"attack": 1,
 				"wounds": 1,
 				"courage": 7,
@@ -38534,7 +38534,8 @@
 				"wargear": [
 					"Heavy Armour",
 					"Hand weapon",
-					"Spear"
+					"Spear",
+					"FG POLLOTR"
 				]
 			},
 			{
@@ -43139,6 +43140,17 @@
 				]
 			},
 			{
+				"name": "FG POLLOTR",
+				"type": "POLLOTR",
+				"POLLOTR": true,
+				"modifiesStats": [
+					{
+						"stat": "defence",
+						"modifier": 1
+					}
+				]
+			},
+			{
 				"name": "Light Armour",
 				"definition": "A model wearing Light Armour will add 1 to their Defence characteristic against Shooting Attacks. If a model is wearing light armour then the Defence improvement will not have been added onto their profile."
 			},
@@ -45540,7 +45552,7 @@
 				"name": "PLGW",
 				"tag": "Active",
 				"definition": "PLGW przesyła pozdrowienia",
-				"legacy": true
+				"POLLOTR": true
 			},
 			{
 				"name": "The Age of Men is Over",
