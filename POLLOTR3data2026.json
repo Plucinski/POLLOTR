@@ -38525,7 +38525,9 @@
 				"baseSize": [
 					"25mm"
 				],
-				"options": [],
+				"options": [
+					"FG POLLOTR"
+				],
 				"specialRules": [
 					"Bodyguard",
 					"Protectors of the White Tree",
@@ -38534,8 +38536,7 @@
 				"wargear": [
 					"Heavy Armour",
 					"Hand weapon",
-					"Spear",
-					"FG POLLOTR"
+					"Spear"
 				]
 			},
 			{
@@ -43141,7 +43142,7 @@
 			},
 			{
 				"name": "FG POLLOTR",
-				"type": "POLLOTR",
+				"type": "blowpipe",
 				"POLLOTR": true,
 				"modifiesStats": [
 					{
